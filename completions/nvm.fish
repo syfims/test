@@ -2,7 +2,6 @@ complete --command nvm --exclusive
 complete --command nvm --exclusive --long version --description "Print version"
 complete --command nvm --exclusive --long help --description "Print help"
 complete --command nvm --long silent --description "Suppress standard output"
-
 complete --command nvm --exclusive --condition __fish_use_subcommand --arguments install --description "Download and activate the specified Node version"
 complete --command nvm --exclusive --condition __fish_use_subcommand --arguments use --description "Activate the specified Node version in the current shell"
 complete --command nvm --exclusive --condition __fish_use_subcommand --arguments list --description "List installed Node versions"
